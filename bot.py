@@ -56,5 +56,4 @@ async def trade(ctx, *items):
     await ctx.send(response)
 
 # Run bot (Replace with your token)
-import os
-bot.run(os.getenv("TOKEN"))
+bot.run("TOKEN")
